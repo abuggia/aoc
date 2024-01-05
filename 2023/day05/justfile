@@ -1,0 +1,7 @@
+
+
+test:
+  cargo watch -c -x "test -- --nocapture"
+
+run:
+  cargo watch -c -x "run --bin p2"

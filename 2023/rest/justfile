@@ -1,0 +1,11 @@
+
+
+test day part:
+  cargo watch -c -x "test --bin day{{day}}_{{part}} -- --nocapture"
+
+run day part:
+  cargo watch -c -x "run --bin day{{day}}_{{part}} --release"
+
+lib:
+  cargo watch -c -x "test --lib -- --nocapture"
+
